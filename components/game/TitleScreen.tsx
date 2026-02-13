@@ -114,34 +114,37 @@ function PixelHeart({ size = 32 }: { size?: number }) {
       xmlns="http://www.w3.org/2000/svg"
       style={{ imageRendering: "pixelated" }}
     >
-      <rect x="1" y="3" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="3" y="1" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="5" y="1" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="3" y="3" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="5" y="3" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="1" y="5" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="3" y="5" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="5" y="5" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="7" y="1" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="7" y="3" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="7" y="5" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="9" y="1" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="11" y="1" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="9" y="3" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="11" y="3" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="9" y="5" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="11" y="5" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="13" y="3" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="13" y="5" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="3" y="7" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="5" y="7" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="7" y="7" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="9" y="7" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="11" y="7" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="5" y="9" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="7" y="9" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="9" y="9" width="2" height="2" fill="hsl(var(--primary))" />
-      <rect x="7" y="11" width="2" height="2" fill="hsl(var(--primary))" />
+      {/* Left bump - row 1 */}
+      <rect x="2" y="2" width="2" height="2" fill="hsl(var(--primary))" />
+      <rect x="4" y="2" width="2" height="2" fill="hsl(var(--primary))" />
+      
+      {/* Right bump - row 1 */}
+      <rect x="10" y="2" width="2" height="2" fill="hsl(var(--primary))" />
+      <rect x="12" y="2" width="2" height="2" fill="hsl(var(--primary))" />
+      
+      {/* Left bump - row 2 */}
+      <rect x="1" y="4" width="2" height="2" fill="hsl(var(--primary))" />
+      <rect x="3" y="4" width="2" height="2" fill="hsl(var(--primary))" />
+      <rect x="5" y="4" width="2" height="2" fill="hsl(var(--primary))" />
+      
+      {/* Right bump - row 2 */}
+      <rect x="9" y="4" width="2" height="2" fill="hsl(var(--primary))" />
+      <rect x="11" y="4" width="2" height="2" fill="hsl(var(--primary))" />
+      <rect x="13" y="4" width="2" height="2" fill="hsl(var(--primary))" />
+      
+      {/* Wide middle section - row 3 */}
+      <rect x="1" y="6" width="2" height="2" fill="hsl(var(--primary))" />
+      <rect x="3" y="6" width="10" height="2" fill="hsl(var(--primary))" />
+      <rect x="13" y="6" width="2" height="2" fill="hsl(var(--primary))" />
+      
+      {/* Narrower section - row 4 */}
+      <rect x="3" y="8" width="10" height="2" fill="hsl(var(--primary))" />
+      
+      {/* Even narrower - row 5 */}
+      <rect x="5" y="10" width="6" height="2" fill="hsl(var(--primary))" />
+      
+      {/* Point - row 6 */}
+      <rect x="7" y="12" width="2" height="2" fill="hsl(var(--primary))" />
     </svg>
   )
 }

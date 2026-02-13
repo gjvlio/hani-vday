@@ -10,8 +10,11 @@ const pressStart2P = Press_Start_2P({
 })
 
 export const metadata: Metadata = {
-  title: 'For Hani',
+  title: 'hanipot',
   description: 'A Valentine\'s surprise',
+  icons: {
+    icon: 'photos/favicon.png',
+  },
 }
 
 export const viewport: Viewport = {
